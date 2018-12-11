@@ -39,7 +39,7 @@
     "junit-viewer": "^4.11.1",
     "lodash": "^4.17.4",
     "node-excel-to-json": "0.0.3",
-    "node-inspector": "^1.1.1",
+    "node-inspector": "^1.1.2",
     "underscore": "^1.8.3",
     "wdio-allure-reporter": "^0.6.0",
     "wdio-dot-reporter": "0.0.5",
@@ -62,7 +62,8 @@
     "selenium-standalone": "^6.8.0",
     "wdio-appium-service": "^0.2.3",
     "wdio-browserstack-service": "^0.1.4",
-    "wdio-cucumber-framework": "^1.0.2",
+    "wdio-cucumber-framework": "^2.2.0",
+    "wdio-multiple-cucumber-html-reporter": "^0.3.2",
     "wdio-phantomjs-service": "^0.2.2",
     "wdio-sauce-service": "^0.2.2",
     "wdio-screenshot": "^0.5.0",
@@ -70,7 +71,14 @@
   },
   "babel": {
     "presets": [
-        ["env", { "targets": {"node": "current"}}]
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
       ]
+    ]
   }
 }
